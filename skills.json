@@ -1,0 +1,33 @@
+{
+	"skill_1":"theory_of_software_testing",
+	"details": {
+		"levels_of_testing": true,
+		"SDLC": true,
+		"STLC": true,
+		"bugreports": true,
+		"test_cases": true
+	},
+
+	"skill_2":"client_server_architecture",
+	"skill_3":"HTTP_requests_methods",
+	"skill_4":"terminal",
+	"skill_5": "git_commands",
+	"details": {
+		"git_add": true,
+		"git_commit": true,
+		"git_push": true
+	},
+
+	"skill_6":"GitHub",
+	"Skill_7":"API_Postman",
+	"skill_8":"mobile_testing",
+	"skill_9":"SQL",
+	"skill_10":"jmeter" 
+}
+
+
+
+
+
+
+

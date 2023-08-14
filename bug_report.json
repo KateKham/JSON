@@ -1,15 +1,17 @@
 {
-  "Заголовок": "Короткое описание проблемы, которая явно указывает на причину и тип ошибочноу ситуации" ,
-  "Проект": "Название тестируемого объекта" ,
-  "Компонент": "Название части или функции тестируемого продукта" ,
-  "Номер версии": "Версия, на которой была найдена ошибка" ,
-  "Критичность": "Наиболее распространена пятиуровневая система критичности blocker, critical, major, minor, trivial" ,
-  "Приоритет": "Приоритет дефекта hight, medium, low" ,
-  "Статус": "Статус бага. Зависит от используемой процедуры и жизненного цикла бага. например: новый, открыт, закрыт" ,
-  "Автор": "Создатель баг репорта" ,
-  "Назначен на": "Имя сотрудника, назначенного на решение проблемы" ,
-  "Описание": "Информация об окружении, на котором был найден баг: операционная система, сервис пак, имя и версия браузера, версия ПО чипа, версия библиотеки" ,
-  "Полученный результат": "Результат, полученный в результате проведения тестирования" ,
-  "Ожидаемый результат": "То, как должна себя вести система согласно спецификации" ,
-  "Прикрепленный файл": "Файл с логами, скриншот или любой другой документ, который может помочь прояснить причину ошибки или указать на способ решения проблемы"
+
+"ID":"Identification_number",
+"Summary":"A section that summarizes the essence of the bug in one sentence. Answers the questions what where under what circumstances",
+"Project":"Name of project, program or application in which a bug is identified",
+"Version":"The exact version of the software containing the bug",
+"Severity":"The parameter that determines the effect of bug on program operation -Blocker -Critical -Major -Minor -Trivial",
+"Priority":"Parameter that determines the urgency of bug correction -Hight -Medium -Low",
+"Status":"Depends on the stage of the bug: open, in operation, fixed, rejected, delayed", 
+"Author":"Bug Writer",
+"Assigned_to":"The developer who will fix the bug",
+"Steps_to_reproduce":"The exact sequence of actions, which leads to reproduction of a bug",
+"Actual_result":"What happens when you play the steps, how the program works now",
+"Expected_result":"How the program should actually work",
+"Attachments":"Links, screenshots, videos and other materials that will help the developer better understand the nature of the problem"
+
 }
